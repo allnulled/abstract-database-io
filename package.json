@@ -1,0 +1,16 @@
+{
+  "name": "abstract-database-io",
+  "version": "1.0.0",
+  "description": "Simple database abstraction.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w index.js -w test.js -x 'node test.js'",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "@allnulled/typed-as": "0.0.2"
+  }
+}
